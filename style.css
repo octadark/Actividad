@@ -1,0 +1,71 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(12, 116, 116);
+    padding: 0px 50px;
+    color: white;
+}
+.ciudades{
+    display: flex;
+    gap: 20px;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 0px 50px
+}
+.pronosticos{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.dia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(192, 190, 190);
+    flex: 1;
+    padding: 20px;
+}
+.imagen-pronosticos{
+    border-radius: 50%;
+    width: 60%;
+    margin: 15px 0px;
+}
+.temperaturas{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.max{
+    color: red;
+}
+.min{
+    color:blue;
+}
+.cookies{
+    background-color: rgb(203, 229, 252);
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bold;
+    gap: 15px;
+    position: fixed;
+    bottom: 10px;
+    margin: 0px 50px;
+    padding: 15px;
+
+}
+.aceptar{
+    background-color: rgb(23, 28, 71);
+    color: white;
+}
